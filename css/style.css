@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: gray;
+}
+
+.header 
+.header_text{
+    width: 1170px;
+    padding: 0px 100px;
+}
+
+p{
+    font-size: 24px;
+    color: black;
+}
+
+.rect{
+    width: 100%;
+    height: 550px;
+    background-color: rgb(110, 255, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    width: 1170px;
+    padding: 0px 200px;
+}
+
+.portfolio{
+    margin: 0 auto;
+    width: 1170px;
+    background-color: #febaaa;
+    padding-bottom: 20px;
+}
+
+.portfolio_text{
+    padding: 10px 0px 0px 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.all_image{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    height: 220px;
+    width: 550px;
+    background-color: #808080;
+    margin: 5px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+ 
+.gallery{
+    padding: 15px 0px;
+    width: 100%;
+    height: 380px;
+    background-color: rgb(125, 125, 125);
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.gallery_image{
+    height: 350px;
+    width: 360px;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.blocks{
+    width: 100%;
+    height: 300px;
+    background-color: #ffdd55;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #4d4d4d;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.footer_block_text{
+    width: 1170px;
+    padding: 0px 90px;
+    text-align: center;
+}
+
+.footer_text{
+    color: #fff;
+}
